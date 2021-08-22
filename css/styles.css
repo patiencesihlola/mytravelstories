@@ -1,0 +1,17 @@
+#img {background-color:aqua;
+width: "900"; height: 100%;}
+#HotelExpenses {text-align: center;}
+h1, p {color:crimson}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+body {background-color: lightskyblue;
+align-content: center;
+}
+a[href*="contact.html"] {color:blue
+}
+th {background-color: grey;"}

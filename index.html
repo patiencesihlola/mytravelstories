@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Travel Story</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="css\styles.css" rel="stylesheet">
 </head>
 <body>
-    <header><img src="./images/travelpic.jpg"</header>
+    <header><img src="./images/travelpic.jpg"></header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="contact.html">Reach Me</a>
+        <a href="index.html" target="_blank">Home</a>
+        <a href="contact.html" target=_blank>Reach Me</a>
     </nav>
-    <main>
         <h1>Welcome</h1>
         <aside><blockquote>"Life is Either a daring adventure or nothing at all"</blockquote></aside>
             <p>2020 has come, maybe not with a bang as a lot of us had hoped, but the world goes on and as such, I have decided to resume my travel next year. Here is a list of places I have visited:<b> 
@@ -28,39 +27,45 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quas ea accusamus accusantium distinctio nesciunt id nostrum dolorem tempore minima maxime facere nobis earum vero, animi mollitia sapiente, libero eaque.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nesciunt, pariatur quia commodi illo, qui nobis odio ipsum similique numquam magnam repudiandae cupiditate atque, natus aspernatur hic esse dolor deleniti.
         </p>
+        <div class="container">
         <table>
             <thead>
-            <th>Hotel expenses</th></thead><br>
-            <tr>
-                <th scope="cols">Destination</th>
-                <th scope="cols">Hotel</th>
-                <th scope="cols">Nights</th> 
-                <th scope="cols">Cost</th>  
-            </tr>
-            <tr>
-                <td>Singapore</td>
-                <td rowspan="2">Ibis hotel</td>
-                <td>10</td>
-                <td>$2230</td>
-            </tr>
-            <tr>
-                <td>France</td>
-                 <td>20</td>
-                <td>$2680</td>
-            </tr>
-            <tr>
-                <td>Italy</td>
-                <td>Global Resort</td>
-                <td rowspan="2">22</td>
-                <td>$3568</td>
-            </tr>
-            <tr>
-                <td>Germany</td>
-                <td>Cheese Cake Resort</td>
-                 <td>$3568</td>
-            </tr>
-    </table>
-</main>
+                <tr>
+                    <th colspan="4" scope="colgroup">Hotel Expenses</th>
+                </tr>
+                    <tr>
+                <th scope="col"><h2>Destination</h2></th>
+                <th scope="col"><h2>Hotel</h2></th>
+                <th scope="col"><h2>Nights</h2></th> 
+                <th scope="col"><h2>Cost</h2></th>  
+             </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Singapore</th>
+                    <td rowspan="2">Ibis hotel</td>
+                    <td>10</td>
+                    <td>$2230</td>
+                </tr>
+                <tr>
+                    <th scope="row">France</th>
+                     <td>20</td>
+                    <td>$2680</td>
+                </tr>
+                <tr>
+                    <th scope="row">Italy</th>
+                    <td>Global Resort</td>
+                    <td rowspan="2">22</td>
+                    <td>$3568</td>
+                </tr>
+                <tr>
+                    <th scope="row">Germany</td>
+                    <td>Cheese Cake Resort</td>
+                     <td>$3568</td>
+                </tr>
+            </tbody>
+           </table>
+</div>
 </body><br><br><br><br><br>
-<footer> Copyright 2020, All rights reserved. Made with &#9829;></footer>
+<footer><h6>Copyright 2020, All rights reserved. Made with &#9829</h6></footer>
 </html>
